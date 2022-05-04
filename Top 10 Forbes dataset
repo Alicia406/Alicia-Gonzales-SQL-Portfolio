@@ -1,0 +1,36 @@
+CREATE Database FAMOUSPEOPLE;
+
+USE FAMOUSPEOPLE;
+
+CREATE TABLE Forbes_2022 (
+    rating INT,
+    fullname TEXT,
+    networth decimal(14,2),
+    age INT,
+    country TEXT,
+    industry TEXT
+);
+INSERT INTO Forbes_2022 (rating,fullname,networth,age,country,industry)VALUES (1,'Elon Musk', 219000000000 ,50,'US','Automotive');
+INSERT INTO Forbes_2022 (rating,fullname,networth,age,country,industry)VALUES (2,'Jeff Bezos ', 171000000000 ,58,'US','Tech');
+INSERT INTO Forbes_2022 (rating,fullname,networth,age,country,industry)VALUES (3,'Bernard Arnault & family ', 158000000000 ,73,'France','Fashion & Retail ');
+INSERT INTO Forbes_2022 (rating,fullname,networth,age,country,industry)VALUES (4,'Bill Gates ', 129000000000 ,66,'US','Tech');
+INSERT INTO Forbes_2022 (rating,fullname,networth,age,country,industry)VALUES (5,'Warren Buffett ', 118000000000 ,91,'US','Finance & Investments ');
+INSERT INTO Forbes_2022 (rating,fullname,networth,age,country,industry)VALUES (6,'Larry Page ', 111000000000 ,48,'US','Tech');
+INSERT INTO Forbes_2022 (rating,fullname,networth,age,country,industry)VALUES (7,'Sergey Brin ', 107000000000 ,48,'US','Tech');
+INSERT INTO Forbes_2022 (rating,fullname,networth,age,country,industry)VALUES (8,'Larry Ellison ', 106000000000 ,77,'US','Tech');
+INSERT INTO Forbes_2022 (rating,fullname,networth,age,country,industry)VALUES (9,'Steve Ballmer ', 91000000000 ,66,'US','Tech');
+INSERT INTO Forbes_2022 (rating,fullname,networth,age,country,industry)VALUES (10,'Mukesh Ambani ', 90000000000 ,64,'India','Diversified ');
+
+SELECT * FROM Forbes_2022
+WHERE industry='Tech';
+
+
+SELECT * FROM Forbes_2022 LIMIT 3;
+
+
+
+
+
+
+
+SELECT *FROM Forbes_2022;
