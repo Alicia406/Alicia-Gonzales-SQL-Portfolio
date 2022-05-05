@@ -24,6 +24,8 @@ INSERT INTO Forbes_2022 (rating,fullname,networth,age,country,industry)VALUES (1
 SELECT * FROM Forbes_2022
 WHERE industry='Tech';
 
+Select * from Worker where FIRST_NAME not in ('Larry');
+
 
 SELECT * FROM Forbes_2022 LIMIT 3;
 
