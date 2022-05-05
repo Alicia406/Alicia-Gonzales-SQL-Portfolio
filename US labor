@@ -1,0 +1,73 @@
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY,
+    name TEXT);
+    
+    
+
+
+CREATE Table uslabor (
+state TEXT,
+population DECIMAL (19,4),
+totalemployed DECIMAL (19,4),
+partofunion DECIMAL (19,4));
+
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Alabama',5024,1938,115);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Alaska',733,293,46);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Arizona',7151,3116,167);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('California',39538,15497,2468);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Colorado',5773,2538,165);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Connecticut',3605,1524,223);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Delaware',989,435,42);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Florida',21538,8667,448);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Georgia',10711,4404,211);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Hawaii',1455,541,121);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Idaho',1839,767,36);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Illinois',12812,5397,752);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Indiana',6785,2844,256);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Iowa',3190,1428,93);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Kansas',2937,1300,120);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Kentucky',4505,1740,126);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Louisiana',4657,1722,81);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Main',1362,563,70);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Maryland',6177,2689,295);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Massachusetts',7029,3181,402);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Michigan',10077,4047,540);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Minnesota',5706,2608,416);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Mississippi',2961,1080,59);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Missouri',6154,2615,235);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Montana',1084,438,49);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Nebraska',1961,896,61);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Nevada',3104,1249,153);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('New Hampshire',1377,643,65);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('New Jersey',9288,3762,608);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('New Mexico',2117,770,58);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('New York',20201,7770,1729);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('North Carolina',10439,4225,108);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('North Dakota',799,349,19);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Ohio',11799,4966,596);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Oklahoma',3959,1546,87);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Oregon',4237,1784,318);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Pennsylvania',13002,5380,693);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Rhode Island',1097,474,75);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('South Carolina',5118,2070,34);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('South Dakota',886,393,16);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Tennessee',6910,2820,145);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Texas',29145,12057,454);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Utah',3271,1465,51);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Vermont',643,262,32);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Virginia',8631,115,5.9);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Washington',7705,3308,629);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('West Virginia',1793,693,66);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Wisconsin',5893,2705,215);
+INSERT INTO uslabor (state,population,totalemployed,partofunion)VALUES('Wyoming',576,234,13);
+
+Show
+
+
+DELETE FROM  uslabor WHERE population=1938;
+
+
+
+
+
+Select * FROM uslabor;
