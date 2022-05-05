@@ -1,0 +1,30 @@
+CREATE TABLE Employee (
+	WORKER_ID INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	SALARY INT(15),
+	Gender Varchar (10),
+    DEPARTMENT CHAR(25)
+);
+DROP TABLE Employee;
+SELECT * FROM Employee;
+INSERT INTO Employee 
+	(WORKER_ID, SALARY, Gender, DEPARTMENT) VALUES
+		(997, 208788, 'M', 'Research'),
+		(178,  59292, 'M', 'Manufacturing Director'),
+		(1780,  32148, 'M', 'Sales Representative'),
+		(644,  216000, 'M', 'Manager'),
+		(1118,  163320, 'M', 'Healthcare Representative'),
+		(582,  123996, 'M', 'Manager'),
+		(1827,  57300, 'F', 'Manufacturing Director'),
+		(872,  52584, 'M', 'Manufacturing Director'),
+		(828,  64416, 'M', 'Research Scientist'),
+		(1681,  130260, 'F', 'Sales Executive');
+        
+        
+      Select * from Employee where SALARY between 100000 and 500000;
+      
+      Select max(Salary) from Employee 
+where Salary not in (Select max(Salary) from Employee);
+
+
+      
+      SELECT * FROM Employee WHERE MOD (WORKER_ID, 2) <> 0;
